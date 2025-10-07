@@ -18,3 +18,15 @@ export function myCalculator(operator, num1, num2) {
       return "Error operator not found!";
   }
 }
+export function myAddFunction(num1, num2) {
+  return num1 + num2;
+}
+export function mySubtractFunction(num1, num2) {
+  return num1 - num2;
+}
+export function myMultiplyFunction(num1, num2) {
+  return num1 * num2;
+} 
+export function myDivisionFunction(num1, num2) {
+  return num1 / num2;
+}
